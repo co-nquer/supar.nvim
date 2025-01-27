@@ -11,6 +11,8 @@ argument list this makes working with multiple files sup[a]r.
 4. View args: `:al`, 
 5. View difference between args: `:vert al | windo difft`
 
+Also note that the argument list gets automatically populated with the files you pass when evoking neovim (hence the name *args*). For example, `nvim *.md` fills the arg list with all the files that match the pattern `*.md` in the current working directory.
+
 # Usage
 
 Open the floating window
